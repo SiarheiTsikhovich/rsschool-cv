@@ -1,4 +1,9 @@
-body {}
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 .body-bg {
     background-image: url('../images/derevo-fon-doski.jpg');
@@ -17,21 +22,19 @@ body {}
     color: #fff;
 }
 
+.cv-left a:hover {
+    text-decoration: underline;
+}
+
 .cv-right {
     background-color: #fff;
     min-height: 30vh;
     color: #131313;
 }
 
-.photo-block {}
-
 .cv-left a {
     color: #fff;
     text-decoration: none;
-}
-
-.cv-left a:hover {
-    text-decoration: underline;
 }
 
 
@@ -43,4 +46,53 @@ body {}
 .cv-left ul.contacts-block {
     list-style-type: none;
     padding-left: 0;
+    margin-bottom: auto;
+}
+
+.cv-right {
+    background-color: #fff;
+    min-height: 30vh;
+    color: #131313;
+}
+
+.job-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.container-fluid {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.color-grey {
+    color: #4b4b4b;
+}
+
+.cv-header,
+.profile,
+.experince,
+.company-name {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.ul-footer li {
+    display: inline-block;
+    padding: 10px 80px;
+    font-size: large;
+}
+
+.code {
+    position: relative;
+    right: 180px;
 }
