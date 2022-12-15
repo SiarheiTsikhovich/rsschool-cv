@@ -3,10 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     max-width: 1440px;
     margin: 0 auto;
-}
-
-.body-bg {
-    background-image: url('../images/derevo-fon-doski.jpg');
+    background-image: url('./assets/derevo-fon-doski.jpg');
     background-size: cover;
 }
 
