@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CV</title>
+</head>
+
+<body class="body-bg">
+    <main>
+        <div class="container mb-5">
+            <div class="row cv">
+                <div class="col-lg-3 cv-left">
+                    <div class="row">
+                        <div class="photo-block mb-5">
+                            <img src="./images/635880218.jpeg" alt="Siarhei_Tsikhovich" class="img-thumbnail mb-3 mt-3">
+                            <ul id="contacts" class="contacts-block text-center mt-3">
+                                <li>Phone: <a href="tel:+375357307132" target="_blank">+37525 730-71-32</a></li>
+                                <li>E-mail: <a href="mailto:example@mail.ru">sergey.tihovich@gmail.com</a></li>
+                                <li>Discord: Siarhei_ts</li>
+                                <li>Location: Batumi</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-12">
+                            <hr class="bg-white">
+                            <section id="Courses_Skills" class="mt-3">
+                                <h2>Courses</h2>
+                                <ul>
+                                    <li>HTML and CSS for JS dev</li>
+                                    <li>Javascript 2.0</li>
+                                </ul>
+                                <h2>Skills</h2>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript (basic)</li>
+                                    <li>English (B1)</li>
+                                </ul>
+                                <h2>My projects</h2>
+                                <ul>
+                                    <li><a href="https://siarheitsikhovich.github.io/rsschool-cv/cv">CV</a></li>
+                                </ul>
+                                <h2>Education</h2>
+                                <ul>
+                                    <li>Lyceum BSU (2005-2007)</li>
+                                    <li>Faculty of Philosophy and Social Sciences BSU (2007-2012)</li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-8 cv-right">
+                    <header>
+                        <nav class="navbar navbar-light" style="background-color: #feffff;">
+                            <ul class="container-fluid">
+                                <li><a class="navbar-brand" href="#About_me">About me</a></li>
+                                <li><a class="navbar-brand" href="#Courses_Skills">Education and Skills</a></li>
+                                <li><a class="navbar-brand" href="#Code">Code example</a></li>
+                                <li><a class="navbar-brand" href="#Experience">Experience</a></li>
+                                <li><a class="navbar-brand" href="#contacts">Contacts</a></li>
+                            </ul>
+                        </nav>
+                        <h1 class="text-center cv-header mt-4 mb-4">Siarhei Tsikhovich</h1>
+                        <h2 class=" text-center job-title color-grey mb-4">Front-end web developer (Beginner)</h2>
+                    </header>
+                    <h3 id="About_me" class="mb-3 profile color-grey">About me</h3>
+                    <p class="mb-5">
+                        I'm 32 years. I am from Minsk, but now I live in Batumi. For 10 years I worked for a large
+                        Russian IT company in the sales department (not development). Now I am actively studying to
+                        become a front-end developer.
+                    </p>
+                    <h3 id="Experience" class="mb-3 experience color-grey">Experience</h3>
+                    <section class="mb-5">
+                        <h4 class="company-name mb-2">Economic Development Center (2012 - 2021)</h4>
+                        <h5>My Position Title</h5>
+                        <p>Team leader of sales department
+                        </p>
+                    </section>
+                    <h3 id="Code" class="mb-3 profile color-grey">Code example</h3>
+                    <p class="mb-5">
+                        Выведите сумму первого (индекс 1) и последнего массива ar10 в блок out-10. Индекс последнего
+                        элемента массива не указывайте напрямую, а вычисляйте через длину массива.
+                    </p>
+                    <pre>
+                        <code class="code">
+                        let ar10 = [100, 200, 300, 400, 700, 121];
+                        let out10 = document.querySelector('.out-10');
+                        function f10() {
+                        let sum = 0;
+                        sum += ar10[1] + ar10[ar10.length - 1];
+                        out10.innerHTML = sum;
+                        }
+                        document.querySelector('.b-10').onclick = f10;
+                         </code>
+                        </pre>
+                    <footer>
+                        <ul class="ul-footer">
+                            <li><a href="https://rs.school/js/"><img src="./images/rs_school_js.svg" width="120"
+                                        height="120" alt="Logo"></a></li>
+                            <li><a href="https://github.com/SiarheiTsikhovich"><img src="./images/github-logo.png"
+                                        width="220" height="80" alt="GitHub"></a>
+                            </li>
+                            <li>2022</li>
+                        </ul>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/bootstrap.js"></script>
+</body>
+
+</html>
