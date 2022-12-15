@@ -5,6 +5,11 @@ body {
     margin: 0 auto;
 }
 
+.body-bg {
+    background-image: url('../images/derevo-fon-doski.jpg');
+    background-size: cover;
+}
+
 .cv {
     margin-top: 50px;
     border: 1px solid #4b4b4b;
