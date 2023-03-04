@@ -81,19 +81,14 @@
                     </section>
                     <h3 id="Code" class="mb-3 profile color-grey">Code example</h3>
                     <p class="mb-5">
-                        Выведите сумму первого (индекс 1) и последнего массива ar10 в блок out-10. Индекс последнего
-                        элемента массива не указывайте напрямую, а вычисляйте через длину массива.
+                        Given a string made of digits [0-9], return a string where each digit is repeated a number of
+                        times equals to its value.
                     </p>
                     <pre>
                         <code class="code">
-                        let ar10 = [100, 200, 300, 400, 700, 121];
-                        let out10 = document.querySelector('.out-10');
-                        function f10() {
-                        let sum = 0;
-                        sum += ar10[1] + ar10[ar10.length - 1];
-                        out10.innerHTML = sum;
-                        }
-                        document.querySelector('.b-10').onclick = f10;
+                            function explode(s) {
+                                return s.replace(/\d/g, d => d.repeat(d));
+                              }
                          </code>
                         </pre>
                     <footer>
