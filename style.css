@@ -93,3 +93,8 @@ h5 {
     position: relative;
     right: 180px;
 }
+
+.navbar,
+.navbar-light {
+    background-color: #feffff;
+}
